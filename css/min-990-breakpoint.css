@@ -1,0 +1,60 @@
+@media screen and (min-width:990px) {
+    div.headerBar {
+        height: 18vh;
+        
+    }
+    img.logo {
+        width: 20vw;
+    }
+
+    img.woman {
+        width: 500px;
+    }
+
+    div.callUs {
+        left: -480px;
+        bottom: -76px;
+    }
+    .cards-style {
+        width: 165px;
+        height: 195px;
+        font-family: Avenir-BoldCn;
+        border-radius: 12px;
+        font-size: 18px;
+        color: #525252;
+        background-color: #efefef;
+        border: none;
+    
+    }
+    div.covid-19 {
+        font-size: 23px;
+        padding: 10px;
+    }
+    .covid-logo {
+        position: absolute;
+        left: 66px;
+        top: 15px;
+        width: 50px;
+        height: 50px;
+        filter: invert(18%) sepia(89%) saturate(6318%) hue-rotate(3deg) brightness(82%) contrast(119%);
+    }
+
+    div.reason-pic {
+
+        max-height: 150px;
+    }
+    div.hover-active p{
+        color: white;
+        font-family: Avenir-Bold;
+        font-size: 11px;
+        line-height: 12px;
+        
+    }
+    div.section5-bgimage {
+        height: 80vh;
+    }
+    div.slider-title h1 {
+        font-size: 70px;
+    }
+  
+}

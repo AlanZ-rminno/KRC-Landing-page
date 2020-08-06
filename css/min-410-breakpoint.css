@@ -1,0 +1,26 @@
+@media screen and (min-width: 410px) {
+    div.callUs {
+        left: -136px;
+        bottom: -37px;
+    }
+
+    div.covid-19 {
+        font-size: 15px;
+    }
+    .covid-logo {
+        position : absolute;
+        left: 22px;
+        top: 32px;
+        width: 35px;
+        height:35px;
+        filter: invert(18%) sepia(89%) saturate(6318%) hue-rotate(3deg) brightness(82%) contrast(119%);
+    }
+    div.text-box h5 {
+        font-size: 25px;
+        line-height: 15px;
+        
+    }
+    div.text-box p {
+        font-size: 12.5px;
+    }
+}

@@ -1,0 +1,32 @@
+@media screen and (min-width : 373px){
+    img.woman {
+        width: 252px;
+    }
+
+    .covid-logo {
+        position : absolute;
+        left: 22px;
+        top: 32px;
+        width: 30px;
+        height:30px;
+        filter: invert(18%) sepia(89%) saturate(6318%) hue-rotate(3deg) brightness(82%) contrast(119%);
+    }
+
+    div.text-box h5 {
+        font-size: 25px;
+        line-height: 15px;
+        
+    }
+    div.text-box p {
+        font-size: 11.5px;
+    }
+    div.slider-title h1 {
+        font-size: 28px;
+    }
+    .footer-info {
+        font-size: 19px;
+    }
+    .footer-title1 {
+        font-size: 65px;
+    }
+}

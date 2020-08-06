@@ -1,0 +1,47 @@
+@media screen and (min-width : 1140px) {
+
+    .cards-style {
+        width: 180px;
+        height: 195px;
+        font-family: Avenir-BoldCn;
+        border-radius: 12px;
+        font-size: 18px;
+        color: #525252;
+        background-color: #efefef;
+        border: none;
+    
+    }
+
+    div.reason-pic {
+
+        max-height: 180px;
+    }
+    div.covid-19 {
+        font-size: 27px;
+        padding: 15px;
+    }
+    .covid-logo {
+        position: absolute;
+        left: 114px;
+        top: 15px;
+        width: 50px;
+        height: 50px;
+        filter: invert(18%) sepia(89%) saturate(6318%) hue-rotate(3deg) brightness(82%) contrast(119%);
+    }
+    div.reason-slide {
+        height: 550px;
+    
+    }
+    div.reason-slide p {
+        font-size: 17px;
+    }
+
+
+    div.section5-bgimage {
+        height: 100vh;
+    }
+    div.slider-title h1 {
+        font-size: 80px;
+    }
+   
+}

@@ -1,0 +1,155 @@
+@media screen and (min-width: 760px) {
+
+    div.headerBar {
+
+        height: 12vh;
+    }
+
+
+    img.logo {
+        width: 30vw;
+    }
+
+    div.header_adress span {
+        font-size: 20px;
+    }
+
+    div.header_adress p {
+        font-size: 30px;
+    }
+
+    div.mainbox {
+        max-width: 500px;
+        margin-left: 20vw;
+    }
+
+    div.title1_container {
+
+        flex-direction: row;
+        font-size: 60px;
+
+    }
+
+    div.title2_container {
+
+        font-size: 22px;
+
+    }
+
+
+    div.title3_container {
+        font-size: 50px;
+
+    }
+
+    div.title3_container span.line-height-25 {
+        line-height: unset;
+
+    }
+
+
+    img.woman {
+        width: 400px;
+        overflow: hidden;
+
+    }
+
+    div.callUs {
+
+        left: -255px;
+        bottom: -46px;
+
+    }
+
+    div.title3_container button {
+        border-radius: 15px;
+        font-family: Avenir-Bold;
+        width: 250px;
+        height: 80px;
+        font-size: 30px;
+        background-color: #dc0000;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+
+    }
+
+    div.value-item {
+        width: 15vw;
+        height: 15vw;
+
+        max-width: 180px;
+        max-height: 180px;
+        min-width: 149px;
+        min-height: 132px;
+
+    }
+
+    div.title-md-value {
+        display: unset;
+    }
+
+    .cards-style {
+        width: 150px;
+        height: 195px;
+        font-family: Avenir-BoldCn;
+        border-radius: 12px;
+        font-size: 18px;
+        color: #525252;
+        background-color: #efefef;
+        border: none;
+
+    }
+
+
+    div.covid-19 {
+        font-size: 20px;
+    }
+
+    .covid-logo {
+        position: absolute;
+        left: 42px;
+        top: 15px;
+        width: 50px;
+        height: 50px;
+        filter: invert(18%) sepia(89%) saturate(6318%) hue-rotate(3deg) brightness(82%) contrast(119%);
+    }
+    div.reason-pic {
+
+        max-height: 100px;
+    }
+    div.reason-slide {
+        height: 500px;
+        transition: transform 200ms linear;
+        border-radius: 25px;
+
+    }
+
+    div.reason-slide p {
+        font-size: 15px;
+    }
+
+    div.section5-bgimage {
+        height: 70vh;
+    }
+
+    div.reason-slide:hover {
+        transform: scale(1.05);
+
+        border: 2px solid #e9b74f;
+        background-color : rgba(87, 82, 79, 0.637);
+    }
+    p.footer-title1 {
+        line-height: 93px;    
+    }
+
+    div.call {
+        display: none;
+    }
+    div.slider-title h1 {
+        font-size: 50px;
+    }
+}

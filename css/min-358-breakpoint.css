@@ -1,0 +1,44 @@
+@media screen and (min-width : 358px) {
+
+    img.woman {
+        width: 254px;
+    }
+
+
+
+    div.callUs {
+        left: -123px;
+        bottom: -37px;
+    }
+
+    div.covid-19 {
+        font-size: 13.5px;
+    }
+    .covid-logo {
+        position : absolute;
+        left: 22px;
+        top: 32px;
+        width: 20px;
+        height:20px;
+        filter: invert(18%) sepia(89%) saturate(6318%) hue-rotate(3deg) brightness(82%) contrast(119%);
+    }
+
+    div.text-box h5 {
+        font-size: 20px;
+        line-height: 10px;
+        
+    }
+    div.text-box p {
+        font-size: 10.5px;
+    }
+    div.slider-title h1 {
+        font-size: 30px;
+    }
+    
+    .footer-info {
+        font-size: 17px;
+    }
+    .footer-title1 {
+        font-size: 60px;
+    }
+}
