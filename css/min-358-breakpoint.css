@@ -41,4 +41,12 @@
     .footer-title1 {
         font-size: 60px;
     }
+    .title1_container span {
+        font-size: 8vw;
+    }
+
+    .order-btn {
+        font-size: 18px;        
+    }
+
 }

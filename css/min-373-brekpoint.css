@@ -29,4 +29,11 @@
     .footer-title1 {
         font-size: 65px;
     }
+    .order-btn {
+        font-size: 20px;        
+    }
+
+    div.title2_container span{
+        font-size: 20px ;
+    }
 }

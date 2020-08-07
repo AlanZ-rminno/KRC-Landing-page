@@ -56,5 +56,9 @@
     div.slider-title h1 {
         font-size: 70px;
     }
+
+    div.title1_container span{
+        font-size: 6vw;
+    }
   
 }

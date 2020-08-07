@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="css/min-990-breakpoint.css">
     <link rel="stylesheet" href="css/min-1140-breakpoint.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+    </style>
 </head>
 
 <body>
@@ -45,33 +50,27 @@
         <section class="row no-gutters">
 
             <div class="col-12 section1_bgimage d-flex justify-content-center align-items-center py-4 py-lg-5">
-                <div class="mainbox  py-4 py-lg-3 col-md-7">
-                    <div class="title1_container">
-                        <span class="px-lg-2">Chosen</span>
-                        <span class="px-lg-2">Title</span>
+                <div class="mainbox d-flex flex-column justify-content-between py-4 py-lg-3 col-md-7">
+                    <div class="title1_container d-flex flex-column justify-content-center align-items-center">
+                        <span class="px-lg-2">PROFESSIONAL</span>
+                        <span class="px-lg-2">RUG CLEANING</span>
                     </div>
 
                     <div class="title2_container mt-4">
                         <div class="d-flex flex-column justify-content-center align-items-center flex-md-row">
-                            <span class="px-lg-1 line-height-25 m-md-1">WE TREAT YOUR</span>
-                            <span class="px-lg-2  line-height-25 m-md-1">RUGS DIFFERENTLY!</span>
+                            <span class=" line-height-25 m-md-1">WE TREAT YOUR</span>
+                            <span class="  line-height-25 m-md-1">RUGS DIFFERENTLY!</span>
                         </div>
                         <div class="d-flex flex-column justify-content-center align-items-center flex-md-row">
-                            <span class="px-lg-1 line-height-25 m-md-1">WE CLEAN YOUR</span>
-                            <span class="px-lg-2 line-height-25 m-md-1">RUGS BETTER!</span>
+                            <span class=" line-height-25 m-md-1">WE CLEAN YOUR</span>
+                            <span class=" line-height-25 m-md-1">RUGS BETTER!</span>
                         </div>
 
 
                     </div>
 
-                    <div class="title3_container mt-4 d-flex flex-column  ">
-                        <div class="d-flex flex-column flex-md-row justify-content-center">
-                            <span class="mx-2 text-center line-height-25">SAVE</span>
-                            <span class="mx-2 text-center">30%</span>
-                        </div>
-
-                        <button type="button" class="mt-2 mt-lg-0" data-toggle="modal" data-target=".bd-example-modal-lg">Order now!</button>
-                    </div>
+                
+                    <button type="button" class="mt-4 col-8 px-3 py-2 order-btn" data-toggle="modal" data-target=".bd-example-modal-lg">Order now!</button>
 
                     <div class="callUs col-8 mr-md-4">
                         <img src="assets/sophia.png" alt="manager" class="woman ">
@@ -146,10 +145,9 @@
             <div class="col-12 col-md-10 d-flex justify-content-center flex-wrap mt-5 mt-md-0">
                 <div
                     class="d-flex flex-column justify-content-around align-items-center cards-style ml-2 ml-md-4 mt-4 position-relative">
-                    <div class="hover-active text-center ">
-                        <p>THe best rug urine treatment for your Persian, Oriental and antique rugs across KY. We
-                            guarantee 100% urine odor removal and anywhere from 60% to 70% of discoloration being fixed.
-                            Most of the time the stain will be gone 100%. Organic & pH driven.​</p>
+                    <div class="hover-active text-center">
+                        <p>With over 30 years experience, Khazai Rug Cleaning has seen it all! Due to the crystallized nature of pet urine, professional cleaning is essential for saving your rug. Khazai Rug Cleaning can not only remove the pet stain out of your rug, but we will also take the bad odor and crystallized urine out with it ​</p>
+                        <button class="cards-order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
                     </div>
                     <div class="text-center mt-3">
                         <p class="title-card">Pet Stain</p>
@@ -158,14 +156,18 @@
                     <div class="mt-1">
                         <img src="assets/Pet stain removal.svg" alt="" class="img-card">
                     </div>
-                    <div class="">
-                        <button class="order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
+                    <div class="hoveroff-btn">
+                        <button class="cards-order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
                     </div>
                 </div>
 
 
                 <div
-                    class="d-flex flex-column justify-content-around align-items-center cards-style ml-2 ml-md-4 mt-4 ">
+                    class="d-flex flex-column justify-content-around align-items-center cards-style ml-2 ml-md-4 mt-4 position-relative">
+                    <div class="hover-active text-center">
+                        <p>THe best rug urine treatment for your Persian, Oriental and antique rugs across KY. We guarantee 100% urine odor removal and anywhere from 60% to 70% of discoloration being fixed. Most of the time the stain will be gone 100%</p>
+                        <button class="cards-order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
+                    </div>
 
                     <div class="text-center mt-3">
                         <p class="title-card">Urine</p>
@@ -174,45 +176,54 @@
                     <div class="mt-1">
                         <img src="assets/Urine treatment.svg" alt="" class="img-card">
                     </div>
-                    <div>
-                        <button class="order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
+                    <div class="hoveroff-btn">
+                        <button class="cards-order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
                     </div>
 
                 </div>
 
                 <div
-                    class="d-flex flex-column justify-content-around align-items-center cards-style ml-2 ml-md-4 mt-4 ">
-
+                    class="d-flex flex-column justify-content-around align-items-center cards-style ml-2 ml-md-4 mt-4 position-relative ">
+                    <div class="hover-active text-center">
+                        <p>Protect your investment with professionally cleaned area rugs by the best around! Our Express Wash 10 step rug cleaning process is the best rug cleaning service from Louisville to Lexington KY.</p>
+                        <button class="cards-order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
+                    </div>
                     <div class="text-center mt-3">
                         <p class="title-card">Express Wash</p>
                     </div>
                     <div class="mt-1">
                         <img src="assets/Express wash.svg" alt="" class="img-card">
                     </div>
-                    <div>
-                        <button class="order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
+                    <div class="hoveroff-btn">
+                        <button class="cards-order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
                     </div>
 
                 </div>
 
                 <div
-                    class="d-flex flex-column justify-content-around align-items-center cards-style ml-2 ml-md-4 mt-4 ">
-
+                    class="d-flex flex-column justify-content-around align-items-center cards-style ml-2 ml-md-4 mt-4 position-relative ">
+                    <div class="hover-active text-center">
+                        <p>Our Select Wash rug cleaning service is a completely organic approach with careful attention to the pH levels present in the various components of your Oriental, Persian or Antique rugs and is the best rug service in Kentucky.</p>
+                        <button class="cards-order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
+                    </div>
                     <div class="text-center mt-3">
                         <p class="title-card">Select Wash</p>
                     </div>
                     <div class="mt-1">
                         <img src="assets/Select wash.svg" alt="" class="img-card">
                     </div>
-                    <div>
-                        <button class="order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
+                    <div class="hoveroff-btn">
+                        <button class="cards-order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
                     </div>
 
                 </div>
 
                 <div
-                    class="d-flex flex-column justify-content-around align-items-center cards-style ml-2 ml-md-4 mt-4 ">
-
+                    class="d-flex flex-column justify-content-around align-items-center cards-style ml-2 ml-md-4 mt-4 position-relative ">
+                    <div class="hover-active text-center">
+                        <p>Khazai Rug Cleaning services specializes in water restoration of all sorts and is the best rug cleaning solution in Louisville to Lexington. From urine damage to child or pet puke and more, we guarantee a solution for your Persian, Oriental and antique Rug problems.  ​</p>
+                        <button class="cards-order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
+                    </div>
                     <div class="text-center mt-3">
                         <p class="title-card">Water Damage</p>
                         <p class="title-card">Cleaning</p>
@@ -220,23 +231,26 @@
                     <div class="mt-1">
                         <img src="assets/Water damage cleaning.svg" alt="" class="img-card">
                     </div>
-                    <div>
-                        <button class="order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
+                    <div class="hoveroff-btn">
+                        <button class="cards-order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
                     </div>
 
                 </div>
 
                 <div
-                    class="d-flex flex-column justify-content-around align-items-center cards-style ml-2 ml-md-4 mt-4 ">
-
+                    class="d-flex flex-column justify-content-around align-items-center cards-style ml-2 ml-md-4 mt-4 position-relative ">
+                    <div class="hover-active text-center">
+                        <p>Our Premium Wash is the only rug cleaning service in our facility that gives you the top rug cleaning result to sustain the appreciating value of your fine area rug. The superior Kentucky rug cleaning service Khazai has to offer. 100% organic & pH driven cleaning.</p>
+                        <button class="cards-order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
+                    </div>
                     <div class="text-center mt-3">
                         <p class="title-card">Premium Wash</p>
                     </div>
                     <div class="mt-1">
                         <img src="assets/Premuim wash.svg" alt="" class="img-card">
                     </div>
-                    <div>
-                        <button class="order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
+                    <div class="hoveroff-btn">
+                        <button class="cards-order-btn" data-toggle="modal" data-target=".bd-example-modal-lg"> ORDER NOW!</button>
                     </div>
 
                 </div>

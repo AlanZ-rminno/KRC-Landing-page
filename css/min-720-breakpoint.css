@@ -23,10 +23,9 @@
         margin-left: 20vw;
     }
 
-    div.title1_container {
+    div.title1_container span{
 
-        flex-direction: row;
-        font-size: 60px;
+        font-size: 7vw;
 
     }
 

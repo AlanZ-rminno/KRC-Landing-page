@@ -132,14 +132,12 @@ div.header_adress p {
 
 }
 
-.title1_container {
+.title1_container span{
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
     color: #e9b74f;
-    font-family: Avenir-Reg;
-    font-size: 50px;
+    font-family: Avenir-Bold;
+    font-size: 9vw;
     font-weight: bold;
 
 
@@ -149,7 +147,7 @@ div.header_adress p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: Avenir-Reg;
+    font-family: Avenir-It;
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -218,7 +216,7 @@ footer {
 
 
 .footer-title1 {
-    font-size: 55px;
+    font-size: 53px;
     color: white;
     font-family: Avenir-Reg;
     font-weight: bold;
@@ -327,6 +325,22 @@ div.value-item.active .value-title {
 .order-btn {
     background-color: #dc0000;
     color: white;
+    font-family: Avenir-Bold;
+    font-size: 15px;
+    border: none;
+    border-radius:10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.cards-order-btn {
+    background-color: #dc0000;
+    color: white;
+    font-family: Avenir-BoldCn;
+    font-size: 15px;
     width: 110px;
     height: 42px;
     border: none;
@@ -421,13 +435,14 @@ div.text-box p {
     z-index: 2;
     position: absolute;
     top: 15px;
+    display: none;
+
 }
 
 
   div.cards-style:hover {
-
       background-color :rgba(84,84,84,0.95);
-      padding: 8px;
+      padding: 16px;
 
   }
 
@@ -439,10 +454,11 @@ div.text-box p {
 
     display: none;
   }
-
-  div.hover-active {
+  div.cards-style:hover div.hoveroff-btn{
       display: none;
   }
+
+  
   div.hover-active p{
     color: white;
     font-family: Avenir-Bold;
@@ -452,7 +468,10 @@ div.text-box p {
 }
 
   div.cards-style:hover div.hover-active {
-      display: unset;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
 
   }
   
