@@ -430,9 +430,8 @@ div.text-box p {
 
 
 
-  }
   
-  .slider-title {
+.slider-title {
 
     color: white;
     font-family: Avenir-Reg;
@@ -457,7 +456,7 @@ span.input-group-text {
     font-family: Avenir-BoldCn;
 }
 .modal-label{
-    color :black !important;
+    color :white !important;
     font-family: Avenir-BoldCn;
 }
 
@@ -542,13 +541,16 @@ input.form-control {
     border-radius: 12px;
     margin-top: 20px;
     box-shadow: 3px 2px 3px 0px rgba(235, 235, 235, 1);
+    border:none;
   }
   
   .card__face--back {
     background-color: #ebebeb;
     border-radius: 12px;
     margin-top: 20px;
-    box-shadow: 3px 2px 3px 0px rgba(235, 235, 235, 1);    transform: rotateY( 180deg );
+    box-shadow: 3px 2px 3px 0px rgba(235, 235, 235, 1);    
+    -webkit-transform: rotateY( 180deg );
+    border:none;
   }
   .card:hover {
     -webkit-transform: rotateY(180deg);
