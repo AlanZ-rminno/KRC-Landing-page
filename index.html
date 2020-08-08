@@ -480,14 +480,14 @@
                 <div class="modal-content myModalStyle">
                     <div class="modal-body">
                         
-                        <form class="p-3">
+                        <form class="p-3" id="test-form">
                             <div class="form-group col-12 text-center">
                                 <label class="modal-label mb-4" for="">Please fill your contact information & we will call you soon</label>
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon1">Name:</span>
                                     </div>
-                                    <input type="text" class="form-control" id="formGroupExampleInput"
+                                    <input type="text" class="form-control" id="formGroupExampleInput" name="Name"
                                         aria-describedby="basic-addon1">
                                 </div>
 
@@ -497,7 +497,7 @@
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon1">Email:</span>
                                     </div>
-                                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                                    <input type="text" class="form-control" id="formGroupExampleInput2" name="Email"
                                         aria-describedby="basic-addon1">
 
                                 </div>
@@ -508,7 +508,7 @@
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon1">Phone Number:</span>
                                     </div>
-                                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                                    <input type="text" class="form-control" id="formGroupExampleInput2" name="Phone"
                                         aria-describedby="basic-addon1">
 
                                 </div>
@@ -519,14 +519,14 @@
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon1">Adress:</span>
                                     </div>
-                                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                                    <input type="text" class="form-control" id="formGroupExampleInput2" name="Adress"
                                         aria-describedby="basic-addon1">
 
                                 </div>
 
                                 <div
                                     class="col-12 d-flex flex-column flex-md-row justify-content-center align-content-center mt-4 mb-0">
-                                    <button type="submit" class="modal-btn col-12  p-2 py-3">Schedule a free
+                                    <button type="submit" class="modal-btn col-12  p-2 py-3" id="submit-form">Schedule a free
                                         pickup</button>
                                     <div class="call">
                                         <a href="tel:+1 (502) 327-1499"
@@ -547,7 +547,7 @@
             </div>
         </div>
 
-
+<!---https://script.google.com/macros/s/AKfycbw5rqBDVTNWnHETAY5iHYWINvMHmURd2MgBwiuRyxe7tIFQII4/exec-->
 
 
 
@@ -555,12 +555,11 @@
     </div>
 
 
-
+    
     <script defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYgmAugS6iEZiBTXtmuo1-Qhxd8dui3Wk&callback=initMap">
     </script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    <script src="js/jquery.js">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
@@ -568,6 +567,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
         integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous">
     </script>
+    <script src="js/jquery.serialize-object.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
