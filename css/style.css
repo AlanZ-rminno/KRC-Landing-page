@@ -511,7 +511,6 @@ input.form-control {
 .scene {
     height: 90px;
     perspective: 600px;
-    max-width: 200px;
     border:none;
     
 }
@@ -549,4 +548,5 @@ input.form-control {
 
   .card-back-text {
       font-family: Avenir-BoldCn;
+      font-size: 12px;
   }

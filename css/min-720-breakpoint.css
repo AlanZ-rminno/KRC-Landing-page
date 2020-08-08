@@ -144,6 +144,10 @@
     }
     .scene{
         height: 200px;
+        max-width: 200px;
+    }
+    .card-back-text{
+        font-size: 15px;
     }
 
     
