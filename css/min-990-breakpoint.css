@@ -1,6 +1,6 @@
 @media screen and (min-width:990px) {
     div.headerBar {
-        height: 18vh;
+        height: 13vh;
         
     }
     img.logo {
@@ -16,8 +16,7 @@
         bottom: -76px;
     }
     .cards-style {
-        width: 165px;
-        height: 195px;
+       
         font-family: Avenir-BoldCn;
         border-radius: 12px;
         font-size: 18px;
@@ -50,9 +49,7 @@
         line-height: 12px;
         
     }
-    div.section5-bgimage {
-        height: 80vh;
-    }
+   
     div.slider-title h1 {
         font-size: 70px;
     }
@@ -61,4 +58,7 @@
         font-size: 6vw;
     }
   
+    .footer-info {
+        font-size: 24px;
+    }
 }

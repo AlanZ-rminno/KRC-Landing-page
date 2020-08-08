@@ -1,8 +1,7 @@
 @media screen and (min-width : 1140px) {
 
     .cards-style {
-        width: 180px;
-        height: 195px;
+        
         font-family: Avenir-BoldCn;
         border-radius: 12px;
         font-size: 18px;
@@ -37,14 +36,16 @@
     }
 
 
-    div.section5-bgimage {
-        height: 100vh;
-    }
+ 
     div.slider-title h1 {
         font-size: 80px;
     }
     div.title1_container span{
         font-size: 3vw;
+    }
+
+    .footer-info {
+        font-size: 28px;
     }
    
 }

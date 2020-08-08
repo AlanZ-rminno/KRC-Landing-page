@@ -92,8 +92,6 @@
     }
 
     .cards-style {
-        width: 150px;
-        height: 195px;
         font-family: Avenir-BoldCn;
         border-radius: 12px;
         font-size: 18px;
@@ -121,7 +119,6 @@
         max-height: 100px;
     }
     div.reason-slide {
-        height: 500px;
         transition: transform 200ms linear;
         border-radius: 25px;
 
@@ -131,16 +128,8 @@
         font-size: 15px;
     }
 
-    div.section5-bgimage {
-        height: 70vh;
-    }
 
-    div.reason-slide:hover {
-        transform: scale(1.05);
 
-        border: 2px solid #e9b74f;
-        background-color : rgba(87, 82, 79, 0.637);
-    }
     p.footer-title1 {
         line-height: 93px;    
     }
@@ -150,5 +139,8 @@
     }
     div.slider-title h1 {
         font-size: 50px;
+    }
+    .footer-info {
+        font-size: 21px;
     }
 }
