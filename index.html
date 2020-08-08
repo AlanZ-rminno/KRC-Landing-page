@@ -15,11 +15,6 @@
     <link rel="stylesheet" href="css/min-990-breakpoint.css">
     <link rel="stylesheet" href="css/min-1140-breakpoint.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <style>
-        body {
-            overflow-x: hidden;
-        }
-    </style>
 </head>
 
 <body>
@@ -27,27 +22,6 @@
 
 
         <div class="row">
-            <nav class="navbar  p-0">
-                <!--Header bar for logo and adress-->
-                <div class="col-12 headerBar d-flex justify-content-between px-lg-5">
-
-                    <div class="d-flex align-items-center justify-content-center">
-                        <a href='https://khazairugcleaning.com/'><img src="assets/logo.png" alt="KRC-logo"
-                                class="logo"></a>
-                    </div>
-
-
-
-                    <div class="header_adress d-flex flex-column align-items-center justify-content-center p-4">
-                        <span>11300 Decimal Drive, Suit C</span>
-                        <p class="m-0"><span class="material-icons mr-2">
-                                call
-                            </span>(502) 327-1499</p>
-                    </div>
-
-
-                </div>
-            </nav>
             <nav class="navbar fixed-top p-0">
                 <!--Header bar for logo and adress-->
                 <div class="col-12 headerBar d-flex justify-content-between px-lg-5">
@@ -74,7 +48,7 @@
 
         <!---Section 1 -->
 
-        <section class="row no-gutters">
+        <section class="row no-gutters margin-header">
 
             <div class="col-12 section1_bgimage d-flex justify-content-center align-items-center py-4 py-lg-5">
                 <div class="mainbox d-flex flex-column justify-content-between py-4 py-lg-3 col-md-7">
@@ -214,11 +188,15 @@
         </section>
 
         <!----Section 3-->
-        <section class="row mt-4 flex-column justify-content-center align-content-center no-gutters">
+        <section class="row mt-4 no-gutters">
+
+            <div class="col-12 flex-column justify-content-center align-items-center">
+
+            </div>
             <div class="title-md-value mt-5">
                 <h1>Our Services:</h1>
             </div>
-            <div class="col-11 col-md-11 d-flex justify-content-center flex-wrap mt-5 mt-md-0">
+            <div class="col-12 p-3 col-md-11 d-flex justify-content-center align-items-center flex-wrap mt-5 mt-md-0" style="max-width: 100%;">
 
                 <div
                     class="d-flex flex-column justify-content-around align-items-center cards-style col-md-3 py-3 px-3 ml-2 ml-md-4 mt-4">
@@ -501,8 +479,10 @@
             <div class="modal-dialog modal-md modal-dialog-centered">
                 <div class="modal-content myModalStyle">
                     <div class="modal-body">
+                        
                         <form class="p-3">
-                            <div class="form-group col-12">
+                            <div class="form-group col-12 text-center">
+                                <label class="modal-label mb-4" for="">Please fill your contact information & we will call you soon</label>
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon1">Name:</span>

@@ -4,7 +4,9 @@
 
         height: 12vh;
     }
-
+    .margin-header{
+        margin-top: 12vh;
+    }
 
     img.logo {
         width: 30vw;

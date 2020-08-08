@@ -456,6 +456,10 @@ span.input-group-text {
     color :black !important;
     font-family: Avenir-BoldCn;
 }
+.modal-label{
+    color :black !important;
+    font-family: Avenir-BoldCn;
+}
 
 input.form-control {
     border:none !important;
@@ -506,10 +510,14 @@ input.form-control {
     perspective: 1000px;
 }
 
+.margin-header{
+    margin-top: 9.4vh;
+}
 
   
 .scene {
     height: 90px;
+    -webkit-perspective: 600px;
     perspective: 600px;
     border:none;
     
@@ -518,8 +526,8 @@ input.form-control {
     width: 100%;
     height: 100%;
     position: relative;
-    transition: transform 1s;
-    transform-style: preserve-3d;
+    -webkit-transition: transform 1s;
+    -webkit-transform-style: preserve-3d;
   }
 
   .card__face {
@@ -543,7 +551,7 @@ input.form-control {
     box-shadow: 3px 2px 3px 0px rgba(235, 235, 235, 1);    transform: rotateY( 180deg );
   }
   .card:hover {
-    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
   }
 
   .card-back-text {
