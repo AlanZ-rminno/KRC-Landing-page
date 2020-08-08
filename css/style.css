@@ -533,7 +533,10 @@ input.form-control {
     position: absolute;
     height: 100%;
     width: 100%;
+    -webkit-perspective: 0;
     -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
     backface-visibility: hidden;
   }
   .card__face--front {
