@@ -61,4 +61,10 @@
     .footer-info {
         font-size: 24px;
     }
+
+    .value-logo {
+
+        width: 40px;
+        filter: invert(96%) sepia(0%) saturate(7391%) hue-rotate(42deg) brightness(61%) contrast(112%);
+    }
 }
