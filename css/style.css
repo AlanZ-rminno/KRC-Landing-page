@@ -527,6 +527,7 @@ input.form-control {
     position: relative;
     -webkit-transition: transform 1s;
     -webkit-transform-style: preserve-3d;
+    border:none;
   }
 
   .card__face {
@@ -562,4 +563,11 @@ input.form-control {
   .card-back-text {
       font-family: Avenir-BoldCn;
       font-size: 12px;
+  }
+
+  .modal-alert{
+      font-family: Avenir-BoldCn;
+      line-height: 10px;
+      font-size: 10px;
+      display: none;
   }

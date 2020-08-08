@@ -11,7 +11,6 @@ $('#submit-form').on('click', function(e) {
     
   }
   ).success(
-    console.log("it is submited")
+    $("#modal-alert").css("display", "block")
   );
 })
-console.log(data);
